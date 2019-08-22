@@ -1,6 +1,6 @@
 {
   "name": "reddit-clone",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An app that lets users submit topics and vote on submited topics",
   "main": "index.js",
   "scripts": {
