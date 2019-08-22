@@ -1,0 +1,19 @@
+{
+  "name": "reddit-clone",
+  "version": "0.0.1",
+  "description": "An app that lets users submit topics and vote on submited topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamOdum/reddit-clone.git"
+  },
+  "author": "Sam Odum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamOdum/reddit-clone/issues"
+  },
+  "homepage": "https://github.com/SamOdum/reddit-clone#readme"
+}
