@@ -2,16 +2,17 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import UserPage from "./pages/UserPage";
+import Nav from "./pages/Nav";
 
 const App = () => {
   return (
-    <React.Fragment>
-      <h2>Hello from App</h2>
+    <div>
+      <Nav />
       <Switch>
-        <Route exact path="/" Component={HomePage} />
-        <Route path="/:id" Component={UserPage} />
+        <Route exact path="/r" component={HomePage} />
+        <Route path="/UserPage" component={UserPage} />
       </Switch>
-    </React.Fragment>
+    </div>
   );
 };
 
